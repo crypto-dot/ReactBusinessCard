@@ -1,0 +1,140 @@
+ * {
+   box-sizing: border-box;
+ }
+ :root{
+  --bgColor: #1a1b21;
+  --bodybgColor: #343642; 
+  --footerbgColor: #161619;
+  --linkedinbgColor: #5093e2;
+  --linkedinbgColorHover: #196ed3;
+  --subtitleColor: #f3bf97;
+  --textColor: white;
+  --paragraphColor: white;
+ }
+@media (prefers-color-scheme: light) {
+  :root {
+    --bodybgColor: rgb(255, 247, 247);
+    --bgColor: rgb(241, 241, 241);
+    --footerbgColor: #d5d4d8;
+    --linkedinbgColor: #297fe5;
+    --linkedinbgColorHover: #196ed3;
+    --subtitleColor: #f47d27;
+    --textColor: black;
+    --paragraphColor: #494949;
+  }
+}
+#root {
+  overflow: hidden;
+  border-radius: .5rem;
+  background-color: var(--bgColor);
+  width: 317px;
+}
+body {
+  background-color: var(--bodybgColor);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  color:var(--textColor);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+header {
+  font-weight: 700;
+  margin-bottom: .3rem;
+}
+header > h1,h2,h3 {
+  text-align: center  ;
+}
+p {
+  color: var(--paragraphColor);
+  line-height: 1.6rem;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+header > h1 {
+  margin-bottom: 0;
+}
+section > h1 {
+  margin-bottom: .25rem;
+}
+header > h2 {
+  font-size: 1rem;
+  margin-top: .25rem;
+  color: var(--subtitleColor);
+}
+h1 {
+  font-size: 1.65rem;
+}
+h2, h3 {
+  font-weight: 400;
+}
+h3 {
+  font-size: .85rem;
+}
+.headerButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+footer {
+  height: 4rem;
+  background-color: var(--footerbgColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .75rem;
+}
+.emailButton, .linkedInButton {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  width: 8rem;
+  padding: .5rem;
+  border-radius: .3rem;
+}
+.emailButton {
+  background-color: white;
+  border: 2px solid rgb(197, 197, 197);
+}
+.emailButton:hover, .linkedInButton:hover {
+  cursor: pointer;
+}
+.emailButton:hover {
+  background-color: rgb(248, 248, 248);
+}
+.linkedInButton:hover {
+  background-color: var(--linkedinbgColorHover);
+}
+.linkedInButton {
+  border: none;
+  color:white;
+  border: 2px solid var(--linkedinbgColor);
+  background-color: var(--linkedinbgColor);
+}
+.headerButtons > button {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+.linkedInIcon {
+  width: 1rem;
+  height: 1rem;
+}
+.interests {
+  margin-bottom: 1.5rem;
+}
+section {
+  padding: 0 2rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

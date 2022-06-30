@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ReactBusinessCard/static/css/main.d769d9f1.css",
+    "main.css": "/ReactBusinessCard/static/css/main.88eb9a7f.css",
     "main.js": "/ReactBusinessCard/static/js/main.0e1c4a6b.js",
     "static/media/selfie.png": "/ReactBusinessCard/static/media/selfie.a47159f8e75eec5bbe14.png",
     "index.html": "/ReactBusinessCard/index.html",
-    "main.d769d9f1.css.map": "/ReactBusinessCard/static/css/main.d769d9f1.css.map",
+    "main.88eb9a7f.css.map": "/ReactBusinessCard/static/css/main.88eb9a7f.css.map",
     "main.0e1c4a6b.js.map": "/ReactBusinessCard/static/js/main.0e1c4a6b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d769d9f1.css",
+    "static/css/main.88eb9a7f.css",
     "static/js/main.0e1c4a6b.js"
   ]
 }

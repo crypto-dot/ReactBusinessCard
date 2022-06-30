@@ -24,10 +24,11 @@
   }
 }
 #root {
-  overflow: hidden;
+  overflow: scroll;
   border-radius: .5rem;
   background-color: var(--bgColor);
   width: 317px;
+  max-height: 100vh;
 }
 body {
   background-color: var(--bodybgColor);
